@@ -1,1 +1,4 @@
 /* Omat muokkaukset. Ladataan viimeisenä, ei layeria – voittaa styles.css:n. Homepage-machine ei koske tähän tiedostoon. */
+
+/* Alkuperäinen logo on valkoinen tekstilogo läpinäkyvällä pohjalla – tumma tausta pitää sen luettavana vaalealla otsikkopalkilla. */
+.brand img { background: var(--c-forest-dark); border-radius: var(--r-md); padding: 0.25rem 0.5rem; box-sizing: content-box; }

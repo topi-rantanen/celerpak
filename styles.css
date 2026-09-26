@@ -561,9 +561,9 @@
   .footer__links { display: flex; flex-direction: column; gap: var(--s-1); }
   .footer__badge { display: inline-flex; align-items: center; gap: var(--s-1); margin-top: var(--s-1); font-size: var(--fs-label-md); font-weight: 700; color: var(--c-primary); }
   .footer__badge .icon { color: var(--c-secondary); }
-  .footer__note { display: flex; flex-direction: column; gap: var(--s-half); padding: var(--s-1) var(--s-2); border-radius: var(--r-md); background: var(--c-surface-subtle); }
-  .footer__note strong { display: inline-flex; align-items: center; gap: var(--s-half); font-size: var(--fs-label-md); color: var(--c-forest-dark); }
-  .footer__note .icon { color: var(--c-secondary); }
+  .footer__note { display: flex; flex-direction: column; gap: var(--s-half); padding: var(--s-1) var(--s-2); border-radius: var(--r-md); background: var(--c-secondary); color: var(--c-on-primary); }
+  .footer__note strong { display: inline-flex; align-items: center; gap: var(--s-half); font-size: var(--fs-label-md); color: var(--c-on-primary); }
+  .footer__note .icon { color: var(--c-on-primary); }
   .footer__bottom {
     display: flex; flex-direction: column; align-items: center; gap: var(--s-1);
     padding-top: var(--s-3); border-top: 1px solid var(--c-border);
