@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <rect x="4" y="8" width="44" height="44" rx="8" fill="#0d5c3a" />
+  <path d="M16 22L26 16L36 22V38L26 44L16 38V22Z" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+  <path d="M26 16V44" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M16 22L26 28L36 22" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" />
+  <text x="58" y="35" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5" textLength="150" lengthAdjust="spacingAndGlyphs" fill="#111827">CELERPAK</text>
+  <text x="59" y="47" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="600" letter-spacing="2" textLength="176" lengthAdjust="spacingAndGlyphs" fill="#0d5c3a">YKSILÖLLISET PAKKAUSTUOTTEET</text>
+</svg>
