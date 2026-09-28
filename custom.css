@@ -2,3 +2,9 @@
 
 /* Alkuperäinen logo on valkoinen tekstilogo läpinäkyvällä pohjalla – tumma tausta pitää sen luettavana vaalealla otsikkopalkilla. */
 .brand img { background: var(--c-forest-dark); border-radius: var(--r-md); padding: 0.25rem 0.5rem; box-sizing: content-box; }
+
+/* hCaptchan iframe on kiinteästi 302 px leveä. Mobiilissa tarjousosion implisiittinen auto-sarake venyi sen mukaan ja aiheutti vaakavierityksen alle ~374 px näytöillä (esim. OnePlus 13 suurennetulla näyttökoolla). */
+@media (max-width: 63.99rem) { .quote__grid { grid-template-columns: minmax(0, 1fr); } }
+.h-captcha { max-width: 100%; overflow: hidden; }
+@media (max-width: 25rem) { .h-captcha iframe { transform: scale(0.85); transform-origin: left top; } }
+@media (max-width: 22rem) { .h-captcha iframe { transform: scale(0.74); } }
